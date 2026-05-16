@@ -8,6 +8,7 @@ This workspace contains the local source of truth for the AI 修仙体系 projec
 - `docs/` contains the public Markdown documents.
 - `docs/full-system.md` is the complete master document.
 - `docs/terminology.md` is the naming and terminology authority.
+- `skills/ai-cultivation/` is the first installable Skill for agents to guide cultivation.
 
 ## Local-Only Feishu Publishing
 
@@ -15,6 +16,12 @@ This workspace contains the local source of truth for the AI 修仙体系 projec
 - Generated Feishu XML lives in `.local/build/` and should not be committed.
 - Use `python3 tools/sync-feishu-wiki.py --apply` to sync to Feishu.
 - Do not upload public Markdown directly to Feishu; the script converts it to Feishu-safe XML first.
+
+## Skill Publishing
+
+- Keep `skills/ai-cultivation/SKILL.md` concise and executable.
+- Treat `docs/` as the 道统层 and `skills/` as the 法门层.
+- Do not reposition 观境台 as near-term or already implemented; it is a long-term 观境层 vision.
 
 ## Naming Discipline
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 修仙辅导"
+  short_description: "按 AI 修仙道统判断境界并规划下一步修炼法门与复炼动作"
+  default_prompt: "Use $ai-cultivation to 判断我当前 AI 修仙境界，并带我开始下一步修炼。"

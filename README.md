@@ -11,6 +11,7 @@
 - 如果想完整阅读：从 [`docs/full-system.md`](docs/full-system.md) 开始。
 - 如果想按章节阅读：按下面的“分册目录”顺序阅读。
 - 如果想先统一概念：先读 [`docs/terminology.md`](docs/terminology.md)。
+- 如果想让 Agent 直接带你开始修炼：安装 [`skills/ai-cultivation`](skills/ai-cultivation/SKILL.md)。
 
 ## 分册目录
 
@@ -26,6 +27,7 @@
 
 ## 核心框架
 
+- **三层体系**：道统层解释体系，法门层实际修炼，观境层长期辅助诊断。
 - **真身 / 分身**：本人是最终责任承担者，AI 是可训练、可授权、可审计的现实代理。
 - **天地五源**：信息、算力、注意力、权限、信任。
 - **三阶十五境**：从问灵境、驭咒境，到洞天境、万化境、逍遥境。
@@ -33,17 +35,32 @@
 - **小周天六步**：聚材、立则、试法、授令、记功、复炼。
 - **护道边界**：越像本人，越要守边界；越能代行，越要可审计。
 
+## 第一本修炼秘籍：AI Cultivation Skill
+
+本仓库的 `docs/` 是道统层，负责说明世界观、境界、术语、路线和护道边界。
+
+[`skills/ai-cultivation`](skills/ai-cultivation/SKILL.md) 是第一本可安装的修炼秘籍。它让其他支持 Skill 的 Agent 可以直接按照本项目道统辅助用户修行：
+
+- 判断当前境界与境内四重。
+- 选择一个低风险、高频、可验证的下一步法门。
+- 带用户跑通小周天：聚材、立则、试法、授令、记功、复炼。
+- 把稳定工作流沉淀为可复用法门，进一步炼成新的 Skill。
+- 在授权、代办、对外沟通前检查护道边界。
+
+对 Codex 类 Agent，可将 `skills/ai-cultivation` 目录安装到 `$CODEX_HOME/skills/ai-cultivation` 或 `~/.codex/skills/ai-cultivation`。
+
 ## 初修者最短路径
 
 1. 读 [`docs/00-introduction.md`](docs/00-introduction.md) 和 [`docs/01-worldview.md`](docs/01-worldview.md)。
 2. 用 [`docs/02-realms-and-terminology.md`](docs/02-realms-and-terminology.md) 判断自己当前境界。
-3. 按 [`docs/03-practice-path.md`](docs/03-practice-path.md) 的四周筑基路线开始。
-4. 从 [`docs/04-methods-and-templates.md`](docs/04-methods-and-templates.md) 选一门法门照做。
-5. 任何自动执行或对外沟通前，先读 [`docs/05-risks-and-ethics.md`](docs/05-risks-and-ethics.md)。
+3. 安装 [`skills/ai-cultivation`](skills/ai-cultivation/SKILL.md)，让 Agent 按道统带你开始修炼。
+4. 按 [`docs/03-practice-path.md`](docs/03-practice-path.md) 的四周筑基路线开始。
+5. 从 [`docs/04-methods-and-templates.md`](docs/04-methods-and-templates.md) 选一门法门照做。
+6. 任何自动执行或对外沟通前，先读 [`docs/05-risks-and-ethics.md`](docs/05-risks-and-ethics.md)。
 
-## 下一步计划：观境台
+## 长期展望：观境台
 
-下一步计划开发配套工具 **观境台**。它不是另一个聊天机器人，而是 AI 修仙体系的可视化修炼辅助台：帮助修炼者看见自己当前处于什么境界、哪一重、短板在哪里，以及下一步该修哪一门法门。
+**观境台** 是更长期的观境层形态。它不是当前第一阶段要完成的聊天机器人，也不应一开始就试图覆盖用户生活的全部细节。更合理的前提是：修炼者已经通过 Skill 和法门积累了足够的修炼证据，再由观境台可视化地帮助判断当前处于什么境界、哪一重、短板在哪里，以及下一步该修哪一门法门。
 
 初步设想包括：
 
@@ -54,21 +71,22 @@
 - **下一步建议**：根据当前境界和短板，生成下一周最值得修的任务、模板和复炼动作。
 - **护道检查**：在涉及授权、自动执行、对外沟通前，提示风险等级、审批点和禁区。
 
-目标是让修炼者不只理解概念，还可以持续对照、记录、复炼，逐步把自己的 AI 分身系统修出来。
+目标是让修炼者不只理解概念，还可以先通过 Skill 开始修炼，再持续对照、记录、复炼，逐步把自己的 AI 分身系统修出来。
 
 ## 项目状态
 
-当前版本已进入公开可用阶段：境界主干、修炼路线、法门结构和护道边界已固定，可作为 AI 修仙的入门手册与实践参照。
+当前版本已进入公开可用阶段：境界主干、修炼路线、法门结构、第一本 Skill 秘籍和护道边界已固定，可作为 AI 修仙的入门手册与实践参照。
 
 后续更新将主要围绕三类方向展开：
 
-- 补充更多现实法门样例与修炼案例。
-- 开发“观境台”等可视化辅助工具。
+- 补充更多现实法门样例、修炼案例与可安装 Skill。
+- 长期探索“观境台”等可视化辅助形态。
 - 基于真实修炼反馈，校准境界判定、风险边界与复炼方法。
 
 ## 许可
 
 - 文档、术语、世界观、模板等文字内容：CC BY 4.0。
+- `skills/` 下的 Skill 指令与引用资料：CC BY 4.0。
 - `tools/` 下的工具脚本：MIT。
 
 详见 [`LICENSE`](LICENSE)。
