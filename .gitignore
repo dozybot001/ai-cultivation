@@ -1,0 +1,6 @@
+# Local Feishu publishing metadata and generated artifacts
+.local/
+
+# OS/editor noise
+.DS_Store
+*.swp

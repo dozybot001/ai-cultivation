@@ -1,0 +1,57 @@
+# AI 修仙体系：分身代行之道
+
+> AI 入世，真身出世。
+
+这是一套把 AI 从“问答助手”修炼为“现实分身”的世界观与实践手册。它用修仙隐喻描述个人 AI 操作系统的建立过程：从会问 AI，到让 AI 进入工作流，再到让 AI 在明确边界内代办、代管、代行。
+
+本项目不是工具清单，也不是 Prompt 合集，而是一套可长期打磨的命名体系、境界体系和修炼路线。
+
+## 快速开始
+
+- 如果想完整阅读：从 [`docs/full-system.md`](docs/full-system.md) 开始。
+- 如果想按章节阅读：按下面的“分册目录”顺序阅读。
+- 如果想先统一概念：先读 [`docs/terminology.md`](docs/terminology.md)。
+
+## 分册目录
+
+| 顺序 | 文档 | 用途 |
+|-|-|-|
+| 00 | [`导读与总纲`](docs/00-introduction.md) | 建立核心命题：分身代行之道 |
+| 01 | [`世界观基础`](docs/01-worldview.md) | 理解五源、法门、小周天、真身与分身 |
+| 02 | [`术语与境界体系`](docs/02-realms-and-terminology.md) | 对照三阶十五境、境内四重和术语表 |
+| 03 | [`修炼路线与法门`](docs/03-practice-path.md) | 按四周筑基、路线图、法门分类和自测开始修炼 |
+| 04 | [`法门样例与模板`](docs/04-methods-and-templates.md) | 照着修周报、会议纪要、资料整理法门，并使用模板 |
+| 05 | [`天条渡劫与护道伦理`](docs/05-risks-and-ethics.md) | 在授权分身前建立风险分级、禁术和伦理边界 |
+| 06 | [`太上逍遥境`](docs/06-xiaoyao.md) | 明确最终愿景：AI 入世，我出世 |
+
+## 核心框架
+
+- **真身 / 分身**：本人是最终责任承担者，AI 是可训练、可授权、可审计的现实代理。
+- **天地五源**：信息、算力、注意力、权限、信任。
+- **三阶十五境**：从问灵境、驭咒境，到洞天境、万化境、逍遥境。
+- **境内四重**：初证、成式、行法、圆满。
+- **小周天六步**：聚材、立则、试法、授令、记功、复炼。
+- **护道边界**：越像本人，越要守边界；越能代行，越要可审计。
+
+## 初修者最短路径
+
+1. 读 [`docs/00-introduction.md`](docs/00-introduction.md) 和 [`docs/01-worldview.md`](docs/01-worldview.md)。
+2. 用 [`docs/02-realms-and-terminology.md`](docs/02-realms-and-terminology.md) 判断自己当前境界。
+3. 按 [`docs/03-practice-path.md`](docs/03-practice-path.md) 的四周筑基路线开始。
+4. 从 [`docs/04-methods-and-templates.md`](docs/04-methods-and-templates.md) 选一门法门照做。
+5. 任何自动执行或对外沟通前，先读 [`docs/05-risks-and-ethics.md`](docs/05-risks-and-ethics.md)。
+
+## 项目状态
+
+当前版本仍在持续打磨中，重点追求：
+
+- 命名严谨，不做松散玄幻贴皮。
+- 体系自洽，境界、法门、资源、风险边界互相对应。
+- 可实施，初修者可以照着建立自己的 AI 分身系统。
+
+## 许可
+
+- 文档、术语、世界观、模板等文字内容：CC BY 4.0。
+- `tools/` 下的工具脚本：MIT。
+
+详见 [`LICENSE`](LICENSE)。
