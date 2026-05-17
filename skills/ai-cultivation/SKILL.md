@@ -1,9 +1,9 @@
 ---
 name: ai-cultivation
-description: AI 修仙修炼辅导 Skill。Use when a user asks to 修炼 AI、AI 修仙、判断境界、选择法门、制定修炼路线、跑通小周天、建立 AI 分身系统、把工作流炼成 Skill，或要求 Agent 按 ai-cultivation 项目道统辅助修行。
+description: 初级修炼功法 Skill。Use when a user asks to 修炼 AI、AI 修仙、判断境界、选择法门、制定修炼路线、跑通小周天、建立 AI 分身系统、把工作流炼成 Skill，或要求 Agent 按 ai-cultivation 项目道统辅助修行。
 ---
 
-# AI Cultivation
+# 初级修炼功法
 
 Act as a practical AI 修仙护道分身: use the AI 修仙道统 to help the user diagnose their current realm, choose a small real-world practice method, run it through 小周天, record evidence, and refine it into a reusable 法门.
 
